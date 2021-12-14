@@ -1,0 +1,103 @@
+/** -------- WORK ----------**/
+
+#hidden-content {
+    display: none;
+}
+
+.div-list-tecnologias {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-header {
+    display: flex;
+}
+
+.work-header-img {
+    margin-right: 16px;
+    width: 100px;
+}
+
+.work-header-img img {
+    border-radius: 15px;
+}
+
+.div-bt-mais-work {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-hiden-work {
+    width: 150px;
+    height: 50px;
+    background-color: #ffa80494;
+    color: #00000075;
+}
+
+.btn-hiden-work:hover {
+    width: 150px;
+    height: 50px;
+    border: #ffa60029 solid 6px;
+    background-color: #ffa80494;
+    color: #00000075;
+}
+
+.div-bt-menos-work {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+/** ------- SOBRE -----------**/
+
+#sobre-text {
+    display: none;
+}
+
+
+/** BT de show e hidden**/
+
+.div-bt-mais {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-hiden {
+    width: 150px;
+    height: 50px;
+    border: #ffa60029 dashed 6px;
+    background-color: #ffa60036;
+    color: #ffffff5c;
+}
+
+.btn-hiden:hover {
+    width: 150px;
+    height: 50px;
+    border: #ffa60029 solid 6px;
+    background-color: #ffa60029;
+    color: #ffffffb0;
+}
+
+.div-bt-menos {
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+}
+
+
+/** SESSION TECNOLOGIAS SKIL **/
+
+.radial-progress .progress-title {
+    position: absolute;
+    top: 30% !important;
+    left: 50% !important;
+    width: 100%;
+    letter-spacing: 0;
+    text-align: center;
+    transform: translate(-50%, 15px);
+    color: #333;
+}
